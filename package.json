@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-lamansky",
+  "version": "1.0.0",
+  "description": "Custom ESLint configuration. Extends Standard.",
+  "keywords": ["eslint", "eslintconfig"],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/eslint-config-lamansky",
+  "repository": "lamansky/eslint-config-lamansky",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "eslint": "^3.13.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
