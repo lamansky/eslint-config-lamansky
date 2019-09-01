@@ -4,13 +4,8 @@
     "sourceType": "script"
   },
   "rules": {
-    "array-bracket-spacing": ["error", "never"],
-    "standard/array-bracket-even-spacing": "off",
     "array-callback-return": "error",
     "comma-dangle": ["error", "always-multiline"],
-    "computed-property-spacing": ["error", "never"],
-    "standard/computed-property-even-spacing": "off",
-    "dot-notation": "error",
     "linebreak-style": ["error", "unix"],
     "lines-around-comment": ["error", {
       "beforeBlockComment": true,
@@ -18,38 +13,32 @@
     }],
     "lines-around-directive": ["error", "always"],
     "no-alert": "error",
-    "no-case-declarations": "error",
     "no-eq-null": "error",
     "no-extra-label": "error",
     "no-invalid-this": "error",
     "no-lonely-if": "error",
-    "no-mixed-operators": "error",
     "no-mixed-requires": "error",
     "no-negated-condition": "error",
-    "no-new": "error",
     "no-shadow": ["error", {
       "allow": ["resolve", "reject"]
     }],
     "no-undefined": "error",
     "no-unused-labels": "error",
-    "no-useless-return": "error",
     "no-var": "error",
-    "no-void": "error",
     "no-warning-comments": ["warn", {
       "terms": ["todo"]
     }],
+    "object-curly-spacing": "off",
     "object-shorthand": ["error", "always"],
     "operator-assignment": ["error", "always"],
-    "prefer-const": "error",
+    "padded-blocks": ["error", {
+      "blocks": "never",
+      "switches": "never"
+    }],
     "prefer-destructuring": ["error", {
       "array": false,
       "object": true
     }],
-    "quote-props": ["error", "as-needed"],
-    "strict": ["error", "global"],
-    "valid-jsdoc": ["error", {
-      "requireParamDescription": false,
-      "requireReturnDescription": false
-    }]
+    "strict": ["error", "global"]
   }
 }
