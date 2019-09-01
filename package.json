@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-lamansky",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Custom ESLint configuration. Extends Standard.",
-  "keywords": ["eslint", "eslintconfig"],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": {
     "name": "Fr. John Lamansky",
     "url": "lamansky.com"
