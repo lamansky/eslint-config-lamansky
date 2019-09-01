@@ -1,14 +1,16 @@
 # eslint-config-lamansky
 
-Custom [ESLint](http://eslint.org/) configuration packaged as a [Node.js](https://nodejs.org/en/) module. Extends [Standard](http://standardjs.com/rules.html).
+[ESLint](https://eslint.org/) is a tool that checks JavaScript files to see if they meet certain coding style guidelines. This project is a custom ESLint config (set of style rules) based on [Standard](https://standardjs.com/rules.html).
 
 ## Installation
 
+First add the package to your [Node.js](https://nodejs.org/en/) project.
+
 ```bash
-npm install eslint-config-lamansky --save-dev
+npm i eslint-config-lamansky -D
 ```
 
-Add the following to your `package.json`:
+Then add the following to your `package.json`:
 
 ```json
 "eslintConfig": {
