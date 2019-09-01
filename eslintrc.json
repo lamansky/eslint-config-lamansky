@@ -8,6 +8,10 @@
       "allowImplicit": false
     }],
     "comma-dangle": ["error", "always-multiline"],
+    "for-direction": "error",
+    "getter-return": ["error", {
+      "allowImplicit": false
+    }],
     "linebreak-style": ["error", "unix"],
     "lines-around-comment": ["error", {
       "beforeBlockComment": true,
@@ -15,6 +19,11 @@
     }],
     "lines-around-directive": ["error", "always"],
     "no-alert": "error",
+    "no-buffer-constructor": "error",
+    "no-console": "warn",
+    "no-else-return": ["error", {
+      "allowElseIf": true
+    }],
     "no-extra-label": "error",
     "no-labels": ["error", {
       "allowLoop": true,
@@ -48,6 +57,12 @@
     }, {
       "enforceForRenamedProperties": false
     }],
-    "strict": ["error", "global"]
+    "prefer-object-spread": "error",
+    "require-atomic-updates": "error",
+    "strict": ["error", "global"],
+    "switch-colon-spacing": ["error", {
+      "after": true,
+      "before": false
+    }]
   }
 }
