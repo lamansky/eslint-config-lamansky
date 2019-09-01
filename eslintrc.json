@@ -15,9 +15,12 @@
     }],
     "lines-around-directive": ["error", "always"],
     "no-alert": "error",
-    "no-eq-null": "error",
     "no-extra-label": "error",
-    "no-invalid-this": "error",
+    "no-labels": ["error", {
+      "allowLoop": true,
+      "allowSwitch": false
+    }],
+    "no-label-var": "error",
     "no-lonely-if": "error",
     "no-mixed-requires": "error",
     "no-negated-condition": "error",
