@@ -22,17 +22,17 @@
     "no-eq-null": "error",
     "no-extra-label": "error",
     "no-invalid-this": "error",
+    "no-lonely-if": "error",
     "no-mixed-operators": "error",
     "no-mixed-requires": "error",
     "no-negated-condition": "error",
-    "no-lonely-if": "error",
-    "no-unused-labels": "error",
-    "no-useless-return": "error",
     "no-new": "error",
     "no-shadow": ["error", {
       "allow": ["resolve", "reject"]
     }],
     "no-undefined": "error",
+    "no-unused-labels": "error",
+    "no-useless-return": "error",
     "no-var": "error",
     "no-void": "error",
     "no-warning-comments": ["warn", {
