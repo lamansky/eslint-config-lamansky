@@ -11,6 +11,7 @@
   "homepage": "https://github.com/lamansky/eslint-config-lamansky",
   "repository": "lamansky/eslint-config-lamansky",
   "main": "index.js",
+  "files": ["eslintrc.json"],
   "peerDependencies": {
     "eslint": ">= 3"
   },
