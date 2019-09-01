@@ -4,7 +4,9 @@
     "sourceType": "script"
   },
   "rules": {
-    "array-callback-return": "error",
+    "array-callback-return": ["error", {
+      "allowImplicit": false
+    }],
     "comma-dangle": ["error", "always-multiline"],
     "linebreak-style": ["error", "unix"],
     "lines-around-comment": ["error", {
@@ -20,7 +22,9 @@
     "no-mixed-requires": "error",
     "no-negated-condition": "error",
     "no-shadow": ["error", {
-      "allow": ["resolve", "reject"]
+      "allow": ["resolve", "reject"],
+      "builtinGlobals": true,
+      "hoist": "functions"
     }],
     "no-undefined": "error",
     "no-unused-labels": "error",
@@ -38,6 +42,8 @@
     "prefer-destructuring": ["error", {
       "array": false,
       "object": true
+    }, {
+      "enforceForRenamedProperties": false
     }],
     "strict": ["error", "global"]
   }
